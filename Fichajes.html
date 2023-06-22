@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="Images/Logo - The Footbal Dinasty.png" type="image/x-icon">
+  <link rel="stylesheet" href="stylefichajes.css">
+  <title>Fichajes - The Footbal Dinasty</title>
+</head>
+
+<body>
+  <header>
+
+    <section class="textos-header">
+      <h1>Mercado de Fichajes</h1>
+      <h2>Los ultimos fichajes internacionales de la semana</h2>
+    </section>
+    <div>
+      <path d="M-31.04,-45.86 C208.23,-17.25 565.46,-115.94 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+        style="stroke: none; fill: #000000;"></path>
+      </svg>
+    </div>
+
+  </header>
+  <section id="Mi Página" class="section-2">
+    <h2>Fichajes de la Semana</h2>
+    <ul>
+      <p>
+        The Footbal Dinasty es una página creada por Santiago Maeda que trata sobre el mejor deporte del mundo que sería
+        el famoso fútbol
+        dónde se podrá ver muchas cosas como: <b>Historia, Últimos Fichajes, Noticias, Rumores y Resultados </b>
+
+      </p>
+    </ul>
+  </section>
+
+  <section class="about-services">
+    <div class="section">
+      <h2 class="titulo">Últimos Fichajes</h2>
+      <div class="servicio-cont">
+        <div class="servicio-ind">
+          <img src="Images/Gundo.jpg">
+          <h3>¡Gündogan, nuevo jugador del Barça!</h3>
+          <p>El centrocampista alemán ha firmado en Múnich su contrato con el equipo azulgrana por dos temporadas, más
+            una tercera opcional</p>
+        </div>
+        <div class="servicio-ind">
+          <img src="Images/NKUNKU.jpg">
+          <h3>¡Cristopher Nkunku es nuevo jugador del Chelsea!</h3>
+          <p>El Chelsea ha anunciado el fichaje de Christopher Nkunku hasta 2029.</p>
+        </div>
+        <div class="servicio-ind">
+          <img src="Images/HAVERTZ.jpg">
+          <h3>¡Bombazo! Havertz, al Arsenal</h3>
+          <p>El club 'gunner' está a punto de cerrar con el Chelsea el fichaje del delantero internacional alemán</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!--RUMORES-->
+   <section id="rumores" class="section">
+    <h2>Rumores de Fichajes</h2>
+    <ul>
+      <li><B>El Real Madrid estaría interesado en Samuel Chukwueze</B></li>
+      <li><B>Sgegún informan diferentes medios, Luciano Vietto estaría cerca de volver al Villareal CF</B></li>
+      <li><B>El PSG está interesado en Lucas Hernández, que lo ven con buenos ojos para su defensa</B></li>
+    </ul>
+  </section>
+
+  <!--NOTICIAS-->
+  <section id="noticias" class="section">
+    <h2>Noticias</h2>
+    <div class="news">
+      <div class="news-item">
+        <h3>Desvelada la nueva camiseta del Real Madrid</h3>
+        <h4> Real Madrid</h4>
+        <p class="text-justify">El Real Madrid y Adidas, la marca deportiva que patrocina al Real Madrid,
+          han desvelado la primera equipación del club blanco para la temporada 2023-24.
+          Una equipación blanca con toques dorados y "con un diseño discreto basado en
+          el uso de un tejido con tecnología HEAT.RDY, que aumenta tu rendimiento mientras
+          disminuye el calor corporal.”</p>
+        <div class="image-container">
+          <img src="https://cope-cdnmed.agilecontent.com/resources/jpg/2/7/1686735735872.jpg" width="600" height="200">
+        </div>
+      </div>
+
+      <div class="news-item">
+        <h3>El Barca trasladó las ofertas a Balde y Lamine</h3>
+        <h4>FC Barcelona</h4>
+        <p class="text-justify">Además de tratar el futuro de Ansu Fati, en la reunión del pasado lunes en Barcelona
+          entre Jorge Mendes y la cúpula de la dirección deportiva azulgrana también se trataron
+          las renovaciones de Alejandro Balde y Lamine Yamal, dos de las perlas de la cantera azulgrana
+          a los que también representa el agente portugués.
+        </p>
+        <br>
+        <div class="image-container">
+          <img src="https://www.fcbarcelonanoticias.com/uploads/s1/13/66/99/8/yamal-balde-barca.jpeg" height="600"
+            width="500">
+        </div>
+      </div>
+
+      <div class="news-item">
+        <h3>El nuevo PSG empieza a coger forma con sus nuevos fichajes</h3>
+        <h4>PSG</h4>
+
+        <p class="text-justify">
+          Y es que, a falta de oficialidad, el gigante galo ya ha cerrado las incorporaciones de Manuel
+          Ugarte (Sporting CP), Kang-in Lee (Mallorca), Marco Asensio (Real Madrid), Milan Skriniar (Inter)
+          y Cher Ndour (Benfica), estos tres últimos con la carta de libertad bajo el brazo.
+        </p>
+        <br>
+        <br>
+
+        <div class="image-container">
+          <img
+            src="https://www.mundodeportivo.com/files/image_948_465/files/fp/uploads/2023/06/13/6488ca80ea288.r_d.459-156-10000.jpeg"
+            height="600" width="500">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="letratype">
+    <h1>Ingresa tus propios Fichajes</h1>
+
+  </div>
+
+  <div class="container">
+    <form id="fichajesForm">
+      <input type="text" id="nombre" placeholder="Nombre del jugador">
+      <input type="text" id="edad" placeholder="Edad">
+      <input type="text" id="nacionalidad" placeholder="Nacionalidad">
+      <input type="text" id="ultimoClub" placeholder="Último club">
+      <input type="text" id="nuevoClub" placeholder="Nuevo club">
+      <button type="button" onclick="agregarFichaje()">Agregar Fichaje</button>
+    </form>
+
+    <table id="fichajesTable">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>Nacionalidad</th>
+          <th>Último club</th>
+          <th>Nuevo club</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <script src="./fichajes.js"></script>
+  
+</body>
+
+</html>
